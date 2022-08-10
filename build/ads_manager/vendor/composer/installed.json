@@ -1,0 +1,37 @@
+[
+    {
+        "name": "wpplugins/utils",
+        "version": "dev-feat/multipackage",
+        "version_normalized": "dev-feat/multipackage",
+        "dist": {
+            "type": "path",
+            "url": "../../../../packages/utils",
+            "reference": "bb1d92ba33ae3925685c4cc5701938b71e37627b"
+        },
+        "archive": {
+            "exclude": [
+                "lib"
+            ]
+        },
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Dearvn\\Utils\\": "src/"
+            }
+        },
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Matthias Günter",
+                "email": "support@matthias-web.com"
+            }
+        ],
+        "description": "Utility functionality for all your WordPress plugins",
+        "transport-options": {
+            "symlink": false
+        }
+    }
+]

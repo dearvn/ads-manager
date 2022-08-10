@@ -1,0 +1,13 @@
+# This file overrides the file from docker-compose.yml
+
+version: "3"
+
+services:
+    wordpress:
+        volumes:
+            # Composer PHP files
+            - ../../plugins/ads_manager/vendor:/var/www/html/wp-content/plugins/ads_manager/vendor
+            # The main plugin source
+            - ../../plugins/ads_manager/src:/var/www/html/wp-content/plugins/ads_manager
+            # Devops scripts
+            - ../../plugins/ads_manager/devops/scripts:/scripts/plugins/ads_manager

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="default" tests="16" assertions="20" errors="0" failures="0" skipped="0" time="0.397222">
+    <testsuite name="Dearvn\Ads_manager\Test\ActivatorTest" file="/Users/nguyenthanhdoan/www/wp/wpplugins/plugins/ads_manager/test/phpunit/ActivatorTest.php" tests="3" assertions="3" errors="0" failures="0" skipped="0" time="0.097518">
+      <testcase name="testActivate" class="Dearvn\Ads_manager\Test\ActivatorTest" classname="Dearvn.Ads_manager.Test.ActivatorTest" file="/Users/nguyenthanhdoan/www/wp/wpplugins/plugins/ads_manager/test/phpunit/ActivatorTest.php" line="19" assertions="1" time="0.093301"/>
+      <testcase name="testDeactivate" class="Dearvn\Ads_manager\Test\ActivatorTest" classname="Dearvn.Ads_manager.Test.ActivatorTest" file="/Users/nguyenthanhdoan/www/wp/wpplugins/plugins/ads_manager/test/phpunit/ActivatorTest.php" line="27" assertions="1" time="0.002125"/>
+      <testcase name="testDbDelta" class="Dearvn\Ads_manager\Test\ActivatorTest" classname="Dearvn.Ads_manager.Test.ActivatorTest" file="/Users/nguyenthanhdoan/www/wp/wpplugins/plugins/ads_manager/test/phpunit/ActivatorTest.php" line="35" assertions="1" time="0.002092"/>
+    </testsuite>
+    <testsuite name="Dearvn\Ads_manager\Test\AssetsTest" file="/Users/nguyenthanhdoan/www/wp/wpplugins/plugins/ads_manager/test/phpunit/AssetsTest.php" tests="6" assertions="6" errors="0" failures="0" skipped="0" time="0.125892">
+      <testcase name="testEnqueueScriptsAndStylesAdmin" class="Dearvn\Ads_manager\Test\AssetsTest" classname="Dearvn.Ads_manager.Test.AssetsTest" file="/Users/nguyenthanhdoan/www/wp/wpplugins/plugins/ads_manager/test/phpunit/AssetsTest.php" line="20" assertions="1" time="0.108458"/>
+      <testcase name="testEnqueueScriptsAndStylesFrontend" class="Dearvn\Ads_manager\Test\AssetsTest" classname="Dearvn.Ads_manager.Test.AssetsTest" file="/Users/nguyenthanhdoan/www/wp/wpplugins/plugins/ads_manager/test/phpunit/AssetsTest.php" line="45" assertions="1" time="0.003892"/>
+      <testcase name="testEnqueueScriptsAndStylesCustomType" class="Dearvn\Ads_manager\Test\AssetsTest" classname="Dearvn.Ads_manager.Test.AssetsTest" file="/Users/nguyenthanhdoan/www/wp/wpplugins/plugins/ads_manager/test/phpunit/AssetsTest.php" line="70" assertions="1" time="0.003141"/>
+      <testcase name="testOverrideLocalizeScriptAdmin" class="Dearvn\Ads_manager\Test\AssetsTest" classname="Dearvn.Ads_manager.Test.AssetsTest" file="/Users/nguyenthanhdoan/www/wp/wpplugins/plugins/ads_manager/test/phpunit/AssetsTest.php" line="89" assertions="1" time="0.006068"/>
+      <testcase name="testOverrideLocalizeScriptFrontend" class="Dearvn\Ads_manager\Test\AssetsTest" classname="Dearvn.Ads_manager.Test.AssetsTest" file="/Users/nguyenthanhdoan/www/wp/wpplugins/plugins/ads_manager/test/phpunit/AssetsTest.php" line="99" assertions="1" time="0.002192"/>
+      <testcase name="testOverrideLocalizeScriptCustomType" class="Dearvn\Ads_manager\Test\AssetsTest" classname="Dearvn.Ads_manager.Test.AssetsTest" file="/Users/nguyenthanhdoan/www/wp/wpplugins/plugins/ads_manager/test/phpunit/AssetsTest.php" line="109" assertions="1" time="0.002141"/>
+    </testsuite>
+    <testsuite name="Dearvn\Ads_manager\Test\CoreTest" file="/Users/nguyenthanhdoan/www/wp/wpplugins/plugins/ads_manager/test/phpunit/CoreTest.php" tests="3" assertions="7" errors="0" failures="0" skipped="0" time="0.080311">
+      <testcase name="testConstruct" class="Dearvn\Ads_manager\Test\CoreTest" classname="Dearvn.Ads_manager.Test.CoreTest" file="/Users/nguyenthanhdoan/www/wp/wpplugins/plugins/ads_manager/test/phpunit/CoreTest.php" line="30" assertions="3" time="0.072331"/>
+      <testcase name="testInit" class="Dearvn\Ads_manager\Test\CoreTest" classname="Dearvn.Ads_manager.Test.CoreTest" file="/Users/nguyenthanhdoan/www/wp/wpplugins/plugins/ads_manager/test/phpunit/CoreTest.php" line="47" assertions="2" time="0.005897"/>
+      <testcase name="testGetInstance" class="Dearvn\Ads_manager\Test\CoreTest" classname="Dearvn.Ads_manager.Test.CoreTest" file="/Users/nguyenthanhdoan/www/wp/wpplugins/plugins/ads_manager/test/phpunit/CoreTest.php" line="64" assertions="2" time="0.002083"/>
+    </testsuite>
+    <testsuite name="Dearvn\Ads_manager\Test\LocalizationTest" file="/Users/nguyenthanhdoan/www/wp/wpplugins/plugins/ads_manager/test/phpunit/LocalizationTest.php" tests="3" assertions="3" errors="0" failures="0" skipped="0" time="0.048443">
+      <testcase name="testOverride" class="Dearvn\Ads_manager\Test\LocalizationTest" classname="Dearvn.Ads_manager.Test.LocalizationTest" file="/Users/nguyenthanhdoan/www/wp/wpplugins/plugins/ads_manager/test/phpunit/LocalizationTest.php" line="23" assertions="1" time="0.043110"/>
+      <testcase name="testGetPackageInfoBackend" class="Dearvn\Ads_manager\Test\LocalizationTest" classname="Dearvn.Ads_manager.Test.LocalizationTest" file="/Users/nguyenthanhdoan/www/wp/wpplugins/plugins/ads_manager/test/phpunit/LocalizationTest.php" line="39" assertions="1" time="0.002520"/>
+      <testcase name="testGetPackageInfoFrontend" class="Dearvn\Ads_manager\Test\LocalizationTest" classname="Dearvn.Ads_manager.Test.LocalizationTest" file="/Users/nguyenthanhdoan/www/wp/wpplugins/plugins/ads_manager/test/phpunit/LocalizationTest.php" line="54" assertions="1" time="0.002813"/>
+    </testsuite>
+    <testsuite name="Dearvn\Ads_manager\Test\base\CoreTest" file="/Users/nguyenthanhdoan/www/wp/wpplugins/plugins/ads_manager/test/phpunit/base/CoreTest.php" tests="1" assertions="1" errors="0" failures="0" skipped="0" time="0.045059">
+      <testcase name="testConstruct" class="Dearvn\Ads_manager\Test\base\CoreTest" classname="Dearvn.Ads_manager.Test.base.CoreTest" file="/Users/nguyenthanhdoan/www/wp/wpplugins/plugins/ads_manager/test/phpunit/base/CoreTest.php" line="31" assertions="1" time="0.045059"/>
+    </testsuite>
+  </testsuite>
+</testsuites>

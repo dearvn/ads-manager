@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="jest tests" tests="7" failures="0" time="6.031">
+  <testsuite name="stores" errors="0" failures="0" skipped="0" timestamp="2022-07-13T19:21:40" time="3.643" tests="6">
+    <testcase classname="stores configure should call configure to always force actions" name="stores configure should call configure to always force actions" time="0.005">
+    </testcase>
+    <testcase classname="stores RootStore context should cache context factory result" name="stores RootStore context should cache context factory result" time="0.001">
+    </testcase>
+    <testcase classname="stores RootStore constructor should act as singleton" name="stores RootStore constructor should act as singleton" time="0.001">
+    </testcase>
+    <testcase classname="stores RootStore constructor should initiate multiple stores" name="stores RootStore constructor should initiate multiple stores" time="0.001">
+    </testcase>
+    <testcase classname="stores RootStore StoreProvider should obtain StoreProvider from factory" name="stores RootStore StoreProvider should obtain StoreProvider from factory" time="0.001">
+    </testcase>
+    <testcase classname="stores useStores should get StoreContext from factory result" name="stores useStores should get StoreContext from factory result" time="0.001">
+    </testcase>
+  </testsuite>
+  <testsuite name="OptionStore" errors="0" failures="0" skipped="0" timestamp="2022-07-13T19:21:40" time="4.573" tests="1">
+    <testcase classname="OptionStore should call the constructor correctly" name="OptionStore should call the constructor correctly" time="0.005">
+    </testcase>
+  </testsuite>
+</testsuites>
